@@ -44,7 +44,7 @@
     frame.origin = pt;
     scrollView.scrollViewFrame = frame;
 
-    return scrollView;
+    return [scrollView autorelease];
 }
 
 - (id)initWithFrame:(CGRect)frame
